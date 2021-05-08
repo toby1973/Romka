@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Romualdas", "Romualdas.vbproj", "{834F035F-8F8C-49E5-89A6-BC5212458C88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834F035F-8F8C-49E5-89A6-BC5212458C88}.Debug|x86.ActiveCfg = Debug|x86
+		{834F035F-8F8C-49E5-89A6-BC5212458C88}.Debug|x86.Build.0 = Debug|x86
+		{834F035F-8F8C-49E5-89A6-BC5212458C88}.Release|x86.ActiveCfg = Release|x86
+		{834F035F-8F8C-49E5-89A6-BC5212458C88}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3770103-2309-49DE-A11E-B7BE485AB548}
+	EndGlobalSection
+EndGlobal

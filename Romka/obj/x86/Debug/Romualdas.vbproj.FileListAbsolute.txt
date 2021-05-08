@@ -1,0 +1,2 @@
+M:\Xaamp\htdocs\Romka\obj\x86\Debug\Romualdas.vbprojAssemblyReference.cache
+M:\Xaamp\htdocs\Romka\obj\x86\Debug\Romualdas.vbproj.CoreCompileInputs.cache

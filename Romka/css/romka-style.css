@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/*css*/
+
+body {
+	font-size: 100%;
+}
+
+#Romka{
+	font-size: 20em;
+	color:Yellow;
+	font-weight: bold;
+	background-color: blue;
+	text-align: center;
+}
+
+#Romkaback {
+	background: url("../img/Romback.png") fixed;
+}
+
+.rotate:hover {
+	animation: hell step-end;
+}
+
+.rotate {
+	animation: hell 1s infinite linear;
+	border-radius: 50%;
+}
+
+	@keyframes hell{
+	0% {
+		transform: rotate(0deg);
+	}
+		
+	100% {
+			transform: rotate(360deg);
+		}
+
+	}
+
+	.dreba {
+		animation: shake 0.5s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes shake {
+		0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+
+	#Romkas{
+	font-size: 10em;
+	color:Yellow;
+	font-style: italic;
+	background-color: blue;
+	text-align: center;
+
+}
+
+.romkaEil {
+	background: url("../img/romkaeil.png") fixed;
+	font-size: 5em;
+	color: yellow;
+	background-color: red;
+	text-align: left;
+}
+
+#vardasBakys {
+	font-size: 2.5em;
+	color: red;
+	background-color: green;
+	animation: spalva 3s linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes spalva {
+	from {
+		color: red;
+		background-color: green;
+	}
+
+	to {
+		color: yellow;
+		background-color: blue;
+	}
+
+}
